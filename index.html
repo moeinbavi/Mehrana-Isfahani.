@@ -5,38 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مهرانا کیست؟</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Vazirmatn', sans-serif;
             direction: rtl;
-            background-color: #f4f4f4;
+            background: linear-gradient(45deg, #ff5733, #ffbd69);
+            color: white;
             text-align: center;
             margin: 50px;
+            overflow: hidden;
         }
         .container {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.3);
             display: inline-block;
+            animation: fadeIn 1.5s ease-in-out;
         }
         h1 {
-            color: #ff5733;
+            font-size: 32px;
+            color: #fff;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         }
         p {
-            color: #333;
-            font-size: 18px;
+            font-size: 20px;
+            margin: 10px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        p:hover {
+            transform: scale(1.1);
+            color: #ffd700;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>مهرانا کیست؟</h1>
-        <p>مهرانا یک اصفهانی است.</p>
-        <p>او خیلی آدم اعقدی است</p>
-        <p>خسیس است</p>
-        <p>پول می‌بینه زود پول میبره</p>
-        <p>او بسیار عاشق پرمیوم است ولی پول نداره</p>
+        <p>⭐ مهرانا یک اصفهانی است.</p>
+        <p>🔥 او خیلی آدم خوبی است.</p>
+        <p>💰 خسیس نیست.</p>
+        <p>🚀 پول می‌بیند و اصلاً بدش می‌آید.</p>
+        <p>💎 او بسیار خفن است!</p>
     </div>
 </body>
+</html>
+
 </html>
 
